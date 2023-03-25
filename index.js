@@ -1,1 +1,3 @@
-console.log("Hi Himanshu")
+const shortid = require('shortid');
+ 
+console.log(shortid.generate());
